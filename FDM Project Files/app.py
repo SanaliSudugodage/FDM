@@ -81,5 +81,9 @@ features = [
     meal_plan_dict[type_of_meal_plan],   # Encoded value of Meal Plan
     market_segment_dict[market_segment_type]  # Encoded value of Market Segment
 ]
+# Display prediction button
+if st.button('Predict Booking Cancellation'):
+    result = predict_booking(features)
+    st.success(f"The booking is predicted to be: {result}")
 
 
