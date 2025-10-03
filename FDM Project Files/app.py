@@ -1,3 +1,7 @@
+# Streamlit app for Hotel Booking Cancellation Prediction
+# This script loads a trained Decision Tree model
+# and provides a web UI for user input to predict cancellation.
+
 import streamlit as st
 import joblib
 
