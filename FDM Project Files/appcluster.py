@@ -38,7 +38,9 @@ if st.button('Predict Cluster'):
     else:
         cluster_label = 'Frequent'
 
-    
+    # Display the predicted cluster
+    st.write(f'The predicted customer cluster is: **{cluster_label}**')
+
 
 
 
