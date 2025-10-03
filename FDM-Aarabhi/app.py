@@ -13,7 +13,7 @@ def predict_booking(features):
 st.title("Hotel Booking Cancellation Prediction")
 
 # Input fields for user to enter feature values
-no_of_adults = st.number_input("Number of Adults", min_value=0, max_value=10, value=0)
+no_of_adults = st.number_input("Number of Adults", min_value=0, max_value=10, value=1)
 no_of_children = st.number_input("Number of Children", min_value=0, max_value=10, value=0)
 no_of_weekend_nights = st.number_input("Number of Weekend Nights", min_value=0, max_value=7, value=0)
 no_of_week_nights = st.number_input("Number of Week Nights", min_value=0, max_value=7, value=0)
