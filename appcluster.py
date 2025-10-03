@@ -4,6 +4,10 @@ import numpy as np
 import joblib
 
 # Load the trained KMeans model and scaler
+# Load Pre-trained KMeans Model and Scaler
+# ========================================
+# The KMeans model is trained on historical booking data
+# The scaler ensures all numeric inputs are normalized before clustering
 kmeans_model = joblib.load('kmeans_model.pkl')
 scaler = joblib.load('scaler.pkl')
 
