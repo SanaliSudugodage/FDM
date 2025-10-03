@@ -87,3 +87,6 @@ if st.button('Predict Booking Cancellation'):
     st.success(f"The booking is predicted to be: {result}")
 
 
+
+#########################################################################
+
